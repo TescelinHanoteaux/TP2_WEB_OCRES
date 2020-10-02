@@ -2,45 +2,72 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Rdio - Luke Chesser</title>
-
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
 	</head>
-	<body>
-		<header>
-			<div class="wrapper">
-				<div class="logo-search">
-					<img class="pull-left" src="img/logo.png" />
-				</div>
 
-				<form method="POST" action="index.html">
-					<input type="search" required class="search">
-					<input type="submit" name="submit" value="Rechercher" class="submit">
-				</form>
-				<div class="user">
-				    <a href="#">Luke Chesser</a>
+	<body>
+		
+		<header>
+			<div class="container">
+				<div class="row">
+
+					<div class="col">
+						<div class="wrapper">
+							<div class="logo-search">
+							<img class="pull-left" src="img/logo.png" />
+							</div>
+						</div>
+					</div>
+				
+					<div class=".col-6">
+						<div class="wrapper">
+							<form method="POST" action="index.html">
+								<input type="search" required class="search">
+								<input type="submit" name="submit" value="Rechercher" class="submit">
+							</form>
+						</div>
+					</div>
+				
+					<div class="col"></div>
+						<div class="wrapper">
+							<div class="user">
+								<a href="#">Luke Chesser</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
-		<aside>
-			<h3>Browse</h3>
-			<nav class="browse">
-				<ul class="main">
-					<li><a class="heavy" href="#">Heavy Rotation</a></li>
-					<li><a class="recent" href="#">Recent Activity</a></li>
-					<li><a class="top" href="#">Top Charts</a></li>
-					<li><a class="new" href="#">New Releases</a></li>
-				</ul>
-			</nav>
-			<h3>Your music</h3>
-			<nav class="music">
-				<ul class="main">
-					<li><a class="collection" href="#">Collection</a></li>
-					<li><a class="history" href="#">History</a></li>
-				</ul>
-			</nav>
-		</aside>
+			
+	
+		<div class="container">
+			<div class="row">
 
+				<div class=".col-sm-">
+
+					<aside>
+						<h3>Browse</h3>
+						<nav class="browse">
+							<ul class="main">
+								<li><a class="heavy" href="#">Heavy Rotation</a></li>
+								<li><a class="recent" href="#">Recent Activity</a></li>
+								<li><a class="top" href="#">Top Charts</a></li>
+								<li><a class="new" href="#">New Releases</a></li>
+							</ul>
+						</nav>
+						<h3>Your music</h3>
+						<nav class="music">
+							<ul class="main">
+								<li><a class="collection" href="#">Collection</a></li>
+								<li><a class="history" href="#">History</a></li>
+							</ul>
+						</nav>
+					</aside>
+				</div>
+
+				<div class="col">
 		<main>
 			<header>
 				<div class="name-photo">
@@ -154,5 +181,7 @@
 				</article>
 			</section>
 		</main>
+				</div>
+	</div>
 	</body>
 </html>

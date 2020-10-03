@@ -9,18 +9,6 @@ A lire impérativement avant de commencer quoi que ce soit, ce sont les règles 
 ## Instructions
 
 
-![](img/exemple.gif)
-
-1. Ajouter [bootstrap](https://getbootstrap.com) à votre projet
-
-2. Centrer les éléments sur la page grace à un container Bootstrap
-
-3. Utiliser la [grille](https://getbootstrap.com/docs/4.2/layout/grid/) fluide de Bootstrap pour définir la largeur des éléments :
-
-   - Menu
-   - Partie principale
-
-4. Utiliser les classes de grille (col-xs-_ / col-md-_ etc.) pour afficher successivement les albums par 6 sur grand écran, 4 pour les tablettes et 2 en dessous. Vous trouverez des images dans le répertoire design qui montrent ce qui est attendu pour chacun des appareils.
 
 5. Utiliser Bootstrap pour :
 

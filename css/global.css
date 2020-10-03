@@ -15,6 +15,13 @@ body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
 }
 
+.flex_end {    
+    
+justify-content: flex-end;
+display: flex;
+
+}
+
 a {
     
     color: black;

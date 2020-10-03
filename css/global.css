@@ -6,6 +6,8 @@
     font-weight: bold;
 }
 
+
+
 * { 
     font-family: 'My Lucida', Console;
 }
@@ -232,4 +234,16 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
 
+@media only screen 
+and (max-device-width:575px){
+.share {
+            display: none;    
+        }
+}
 
+@media screen 
+and (max-width:575px){
+form {
+            display: none;
+            }
+}

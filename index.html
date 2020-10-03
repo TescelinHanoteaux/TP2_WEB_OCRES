@@ -5,6 +5,9 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/global.css"/>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
@@ -31,9 +34,15 @@
 				
 					<div class="col"></div>
 						<div class="wrapper">
-							<div class="user">
-								<a href="#">Luke Chesser</a>
-							</div>
+								<div class="dropdown user">
+									<button class="user dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<a href="#">Luke Chesser</a>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										<a class="dropdown-item" href="#">Edit my profile</a>
+										<a class="dropdown-item" href="#">Logout</a>
+									</div>
+								</div>
 						</div>
 					</div>
 				</div>
@@ -43,7 +52,7 @@
 	
 		<div class="container">
 			<div class="row">
-				<div class=".col-sm-">
+				<div class="col-lg-2 d-none d-lg-block">
 					<aside>
 						<h3>Browse</h3>
 						<nav class="browse">
@@ -67,11 +76,11 @@
 				<div class="col">
 		<main>
 			<header>
-				<div class="name-photo">
+				<div class="name-photo row col">
 					<aside>
 						<img src="img/artist.png" />
 					</aside>
-					<div class="name">
+					<div class="name col">
 						<h1>Luke Chesser</h1>
 						<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
 					</div>
@@ -83,7 +92,7 @@
 						<span>6 Followers</span>
 						<span>13 Following</span>
 					</section>
-					<div class="links">
+					<div class="links col">
 						<div>
 							<a href="#">Collection</a>
 							<a href="#">History</a>

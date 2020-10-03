@@ -8,16 +8,6 @@ A lire impérativement avant de commencer quoi que ce soit, ce sont les règles 
 
 ## Instructions
 
-
-
-5. Utiliser Bootstrap pour :
-
-   - Masquer la colonne de gauche sur mobile et sur tablette en mode portrait ([display utilities](https://getbootstrap.com/docs/4.2/utilities/display/))
-   - Aligner les liens Collection et History à droite lorsque l'espace disponible devient insuffisant
-   - Mettre en place le [menu déroulant](https://getbootstrap.com/docs/4.2/components/dropdowns/) (en haut à droite)
-
-6. Remplacer toutes les tailles de police en pixel par des unités relatives (em ou rem)
-
 7. Régler le viewport pour les mobiles
 
 ```html
